@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+#top-gradient {
+    width: auto;
+    height: 500px;
+    position: relative;
+    background: linear-gradient(180deg, #D1BFBF 0%, rgba(209, 191, 191, 0.00) 100%);
+}
+
