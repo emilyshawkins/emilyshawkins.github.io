@@ -4,9 +4,25 @@ html, body {
 } 
 
 #top-gradient {
-    width: auto;
     height: 500px;
     position: relative;
     background: linear-gradient(180deg, #D1BFBF 0%, rgba(209, 191, 191, 0.00) 100%);
+}
+
+#main {
+    position: relative;
+    top: -485px;
+    left: 50px;
+}
+
+a {
+    color: #4D3535;
+    font-family: Lancelot;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #871010;
 }
 
