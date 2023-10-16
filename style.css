@@ -15,6 +15,15 @@ html, body {
     left: 50px;
 }
 
+/* li {
+    float: right;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+} */
+
 a {
     color: #4D3535;
     font-family: Lancelot;
