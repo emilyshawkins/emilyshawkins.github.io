@@ -1,33 +1,64 @@
 html, body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 } 
 
 #top-gradient {
+    position: relative;
     width: auto;
     height: 500px;
     background: linear-gradient(180deg, #D1BFBF 0%, rgba(209, 191, 191, 0.00) 100%);
 }
 
-#main {
+#eh {
     position: relative;
-    top: -485px;
-    left: 50px;
+    display: flex;
+    margin: 0px 150px;
+    min-width: 640px;
+    height: 375px;
+    top: -400px;
 }
 
-/* li {
-    float: right;
-    padding: 20px;
+
+#img-base {
+    width: 350px;
+    min-width: 350px;
+    height: 350px;
+    background: #F9FBFF;
+    box-shadow: 20px 20px 0px 5px #D1BFBF, 1px 1px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+#intro {
+    margin: 0px 0px 0px 75px;
+}
+
+#name, #resume, #projects, #contact {
+    color: #4D3535;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 ul {
-    list-style-type: none;
-} */
+    position: relative;
+    top: -470px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-a {
+li {
+    display: inline;
+    padding: 100px;
+}
+
+#work, a {
     color: #4D3535;
     font-family: Lancelot;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
 }
 
