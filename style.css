@@ -1,68 +1,83 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-} 
 
-#top-gradient {
-    position: relative;
-    width: auto;
-    height: 500px;
-    background: linear-gradient(180deg, #D1BFBF 0%, rgba(209, 191, 191, 0.00) 100%);
+#welcome, #role, .long{
+    font-family: 'Space Mono';
 }
 
-#eh {
-    position: relative;
+#name {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+div {
     display: flex;
-    margin: 0px 150px;
-    min-width: 640px;
-    height: 375px;
-    top: -400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
 }
 
-
-#img-base {
-    width: 350px;
-    min-width: 350px;
-    height: 350px;
-    background: #F9FBFF;
-    box-shadow: 20px 20px 0px 5px #D1BFBF, 1px 1px 3px 0px rgba(0, 0, 0, 0.25);
+#welcome {
+    margin-top: 125px;
+    margin-bottom: 10px;
 }
 
-#intro {
-    margin: 0px 0px 0px 75px;
-}
-
-#name, #resume, #projects, #contact {
-    color: #4D3535;
-    font-family: Montserrat;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-}
-
-ul {
-    position: relative;
-    top: -470px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.text {
+    margin: 0px 0px;
     text-align: center;
 }
 
-li {
-    display: inline;
-    padding: 100px;
-}
-
-#work, a {
-    color: #4D3535;
-    font-family: Lancelot;
-    font-size: 20px;
+.long {
+    background-color: #FFEAEA;
     text-decoration: none;
+    color: black;
+    margin: 5px 0px;
+    padding: 5px 150px;
+    border-radius: 15px;
 }
 
-a:hover {
-    color: #871010;
+#proj-button {
+    padding: 5px 141px;
 }
 
+#two {
+    margin: 40px 0px;
+}
+
+#three {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 175px;
+}
+
+.circle {
+    display: flex;
+    background-color: #FFEAEA;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+
+img {
+    width: 25px;
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description, .description-footer {
+    font-family: 'Space Mono';
+    font-size: 15px;
+    padding: 0px 200px;
+    margin: 20px;
+}
+
+.description-footer {
+    text-align: center;
+}
+
+#about {
+    margin-bottom: 250px;
+}
