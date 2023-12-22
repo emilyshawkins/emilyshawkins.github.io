@@ -81,3 +81,7 @@ img {
 #about {
     margin-bottom: 250px;
 }
+
+a:hover {
+    background-color: #e69494;
+}
