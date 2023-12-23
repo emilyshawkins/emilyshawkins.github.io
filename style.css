@@ -65,6 +65,7 @@ img {
     font-family: 'Playfair Display';
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .description, .description-footer {
@@ -84,4 +85,42 @@ img {
 
 a:hover {
     background-color: #e69494;
+}
+
+.proj-name {
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+
+.proj-description {
+    font-family: 'Space Mono';
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+.project {
+    background-color: #FFEAEA;
+    width: 750px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 58% 42%;
+}
+
+.proj-img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.proj-link {
+    transition: transform .2s;
+}
+
+.proj-link:hover {
+    transform: scale(1.1);
+    background-color: #ffffff00;
 }
